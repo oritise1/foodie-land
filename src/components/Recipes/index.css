@@ -1,0 +1,30 @@
+.recipes{
+    width: auto;
+    height: auto;
+    padding: 0 5.555%;
+}
+.recipeHead {
+    width: 48.09%;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 85px;
+    text-align: center;
+}
+.recipeParag {
+    width: 68%;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    line-height: 1.75em;
+    font-weight: 500;
+    opacity: 0.6;
+    text-align: center;
+}
+.recipeList {
+    display: inline-grid;
+    grid-template-columns: 32% 31% 31%;
+    row-gap: 40px;
+    column-gap: 3.125%;
+}
