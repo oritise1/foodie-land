@@ -1,0 +1,65 @@
+.inboxWrapper {
+    width: auto;
+    height: 442px;
+    padding: 0 5.555%;
+}
+
+.inboxWrap {
+    width: 90%;
+    height: 440px;
+    background-color: #E7F9FD;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.inboxHead {
+    width: 600px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    line-height: 2em;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 270px;
+}
+
+.inboxParag {
+    width: 610px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-top: -24px;
+    margin-left: 250px;
+}
+
+.textArea {
+    width: 350px;
+    height: 80px;
+    border-radius: 24px;
+    padding-left: 30px;
+    padding-right: 180px;
+}
+
+.btnArea {
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    left: 775px;
+    border-radius: 16px;
+    background-color: black;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    margin-top: 10px;
+}
+.inboxImg {
+    display: flex;
+    justify-content: space-between;
+    margin: -188px 1px;
+}

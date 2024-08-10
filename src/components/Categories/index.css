@@ -1,0 +1,41 @@
+.cate1 {
+    width: auto;
+    height: auto;
+    padding: 20px 5.555%;
+}
+.cateGories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.cate2 {
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.singleCate {
+    width: 14.06%;
+    height: 105px;
+    border-radius: 20%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.cateAll {
+    display: flex;
+    column-gap: 3%;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color: #e7fafe;
+    border-radius: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin-top: 40px;
+}

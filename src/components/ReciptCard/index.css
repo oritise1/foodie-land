@@ -1,13 +1,14 @@
 .card {
     width: auto;
-    height: 434px;
+    height: auto;
     border-radius: 30px;
-    background-image: linear-gradient(rgba(255,255,255),rgba(231, 249, 253,0.5), rgb(231, 249, 252));
+}
+.cardImg1 {
+    border-radius: 5%;
+    margin: 20px 10px;
 }
 .cardImg {
    position: relative;
-   top: -245px;
-   left: 285px;
    cursor: pointer;
 }
 .cardHead {

@@ -23,8 +23,8 @@
     text-align: center;
 }
 .recipeList {
-    display: inline-grid;
-    grid-template-columns: 32% 31% 31%;
-    row-gap: 40px;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    row-gap: 20px;
     column-gap: 3.125%;
 }

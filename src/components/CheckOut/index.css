@@ -1,0 +1,50 @@
+.checkWrapper {
+    width: auto;
+    height: 964px;
+    padding: 0 5.555%;
+    background-image: linear-gradient(rgba(255, 255, 255), rgba(231, 249, 253, 0.5), rgb(231, 249, 252));
+}
+
+.checkWrap {
+    text-align: center;
+}
+
+.checkHead {
+    width: 820px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    line-height: 2em;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 165px;
+}
+
+.checkParag {
+    width: 610px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-top: -24px;
+    margin-left: 260px;
+}
+
+.insta {
+    display: flex;
+    column-gap: 2%;
+}
+
+.btn {
+    width: 229px;
+    height: 60px;
+    border-radius: 16px;
+    background: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-weight: 400;
+    color: #fff;
+    margin: 80px 40%;
+}

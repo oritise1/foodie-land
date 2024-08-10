@@ -9,7 +9,7 @@ const NavBar = () => {
         <>
         <div className='navBar'>
             <h1 className='navTittle'>
-                Foodieland<span style={{ color: 'red' }}>.</span>
+                Foodieland<span style={{ color: 'orange' }}>.</span>
             </h1>
             <nav className='navList'>
                 <a href='#'>Home</a>

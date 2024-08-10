@@ -1,13 +1,14 @@
 
 import './App.css'
+import Everyone from './components/Everyone/Everyone'
 import NavBar from './components/NavBar/NavBar'
-import Recipes from './components/Recipes/Recipes'
+
 function App() {
 
   return (
     <div className='App'>
       <NavBar />
-      <Recipes />
+      <Everyone />
     </div>
   )
 

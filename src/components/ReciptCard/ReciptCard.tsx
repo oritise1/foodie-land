@@ -11,18 +11,21 @@ interface ReciptCardProps{
   textImg: string;
   cardInfo1: string;
   cardInfo2: string;
+  backGroundStyle?: React.CSSProperties; 
+  imgWidth?: React.CSSProperties;
+  position?: React.CSSProperties;
 }
 
-const ReciptCard: React.FC<ReciptCardProps> = ({cardImg, textImg,cardInfo1,cardInfo2}) => {
+const ReciptCard: React.FC<ReciptCardProps> = ({cardImg, textImg,cardInfo1,cardInfo2,backGroundStyle, imgWidth, position}) => {
   const [changeImg, setChangeImg] = useState<string>(HeartOff);
   const toogleImg = () => {
     setChangeImg((prevImg) => (prevImg === HeartOff ? HeartOn : HeartOff))
   }
 
   return (
-    <div className='card'>
-      <img src={cardImg} alt='Chesse Burger' style={{ borderRadius: '5%', margin: '20px 10px', width:'340px'}} />
-      <img src={changeImg} alt='Heart On' className='cardImg' onClick={toogleImg} />
+    <div className='card' style={backGroundStyle}>
+      <img src={cardImg} alt='Chesse Burger' className='cardImg1' style={imgWidth} />
+      <img src={changeImg} alt='Heart On' className='cardImg' onClick={toogleImg} style={position} />
       <h2 className='cardHead'>
         {textImg}
       </h2>
