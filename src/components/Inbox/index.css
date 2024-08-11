@@ -1,6 +1,6 @@
 .inboxWrapper {
     width: auto;
-    height: 442px;
+    height: auto;
     padding: 0 5.555%;
 }
 
@@ -20,7 +20,7 @@
     font-size: 3em;
     line-height: 2em;
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: -15px;
     margin-left: 270px;
 }
 
@@ -51,8 +51,8 @@
     border-radius: 16px;
     background-color: black;
     color: #fff;
-    font-family: Inter;
-    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
     font-weight: 600;
     line-height: 16.94px;
     letter-spacing: -0.02em;

@@ -1,0 +1,39 @@
+.everyWrapper {
+    width: auto;
+    height: auto;
+    padding: 0 5.555%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideHead {
+    width: 500px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 80px;
+    letter-spacing: -1px;
+}
+.sideParag {
+    width: 350px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7em;
+    line-height: 1.7em;
+    font-weight: 400;
+    margin-top: -24px;
+}
+.btnSide {
+    width: 160px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: black;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    margin-top: 40px;
+}

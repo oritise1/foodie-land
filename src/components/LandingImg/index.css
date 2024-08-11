@@ -1,0 +1,116 @@
+.landWrapper {
+    width: auto;
+    height: 640px;
+    padding: 0 5.555%;
+    margin-top: 40px;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    background: #E7FAFE;
+}
+
+.leftSide {
+    width: auto;
+    margin: 40px 40px;
+}
+
+.position {
+    position: absolute;
+    margin-top: 40px;
+    left: 50%;
+}
+
+.deals {
+    width: 130px;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px 5px;
+    background-color: #fff;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+}
+
+.sideHead {
+    width: 500px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+
+.sideParag {
+    width: 350px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7em;
+    line-height: 1.7em;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.cardInfo1 {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875em;
+    line-height: 1.8em;
+    font-weight: 500;
+    margin: 25px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.cardItem1 {
+    width: 113px;
+    display: flex;
+    gap: 10px;
+    background-color: #fff;
+    padding: 5px 5px;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.john {
+    display: flex;
+    margin-top: 50px;
+}
+
+.johnHead {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 10px;
+    /* margin-top: 20px; */
+    letter-spacing: -0.02em;
+}
+
+.johnParag {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 0 10px;
+    margin-top: 10px;
+    letter-spacing: -0.02em;
+}
+.btnLand {
+    width: 160px;
+    height: 60px;
+    left: 775px;
+    border-radius: 16px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    margin-top: 30px;
+}

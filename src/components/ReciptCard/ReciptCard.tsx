@@ -33,7 +33,6 @@ const ReciptCard: React.FC<ReciptCardProps> = ({cardImg, textImg,cardInfo1,cardI
         <div className='cardItem'>
           <img src={Timer} alt='timer' />
           <span>{cardInfo1}</span>
-
         </div>
         <div className='cardItem'>
           <img src={Fork} alt='timer' />

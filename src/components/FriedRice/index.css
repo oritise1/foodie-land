@@ -1,0 +1,9 @@
+.riceWrapper {
+    width: auto;
+    height: auto;
+    padding: 0 5.555%;
+}
+.riceWrap {
+    display: flex;
+    justify-content: space-between;
+}
