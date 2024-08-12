@@ -14,27 +14,27 @@ const Categories = () => {
             <button className='btn1'> View All Categories</button>
       </div>
       <div className='cateAll'>
-    <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.5))'}}>
+    <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.2))'}}>
             <img src= {Breakfast} alt='Breakfast Categories' style={{marginTop:'-80px'}} />
             <p style={{marginBottom: '50px'}}>Breakfast</p>
         </div>
-        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.5))'}}>
+        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(108, 198, 55, 0.2))'}}>
             <img src= {Vegan} alt='Breakfast Categories' style={{marginTop:'-80px'}} />
             <p style={{marginBottom: '50px'}}>Vegan</p>
         </div>
-        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.5))'}}>
+        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(204, 38, 27, 0.2))'}}>
             <img src= {Meat} alt='Breakfast Categories' style={{marginTop:'-80px'}} />
             <p style={{marginBottom: '50px'}}>Meat</p>
         </div>
-        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.5))'}}>
+        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(240, 158, 0, 0.2))'}}>
             <img src= {Dessert} alt='Breakfast Categories' style={{marginTop:'-80px'}} />
             <p style={{marginBottom: '50px'}}>Dessert</p>
         </div>
-        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.5))'}}>
+        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.2))'}}>
             <img src= {Lunch} alt='Breakfast Categories' style={{marginTop:'-80px'}} />
             <p style={{marginBottom: '50px'}}>Lunch</p>
         </div>
-        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(112, 130, 70, 0.5))'}}>
+        <div className='singleCate' style={{backgroundImage: 'linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.2))'}}>
             <img src= {Chocolate} alt='Breakfast Categories' style={{marginTop:'-80px'}} />
             <p style={{marginBottom: '50px'}}>Chocolate</p>
         </div>

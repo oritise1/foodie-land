@@ -1,0 +1,9 @@
+.mayWrapper {
+    width: auto;
+    height: auto;
+    padding: 0 5.555%;
+}
+.mayLikeDetails {
+    display: flex;
+    gap: 30px;
+}

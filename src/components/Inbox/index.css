@@ -6,10 +6,11 @@
 
 .inboxWrap {
     width: 90%;
-    height: 440px;
+    height: auto;
     background-color: #E7F9FD;
     border-radius: 10%;
     text-align: center;
+    margin-bottom: 120px;
     margin-left: 50px;
 }
 

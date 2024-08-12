@@ -1,0 +1,81 @@
+.ingredentWrapper {
+    width: auto;
+    height: auto;
+    padding: 0 5.555%;
+}
+.sideSplit {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.leftSplit {
+    width: 70%;
+}
+.rightSplit{
+    width: 30%;
+}
+.gredientHead {
+    width: auto;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+.gredientList {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+.head {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 20px 0;
+    letter-spacing: -1px;
+}
+.boxList {
+    width: 18px;
+    height: 18px;
+    border:  10px;
+    accent-color: #000;
+}
+.dientList {
+    margin: 30px 30px;
+}
+.head12 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 50px 0;
+    letter-spacing: -1px;
+}
+.footerP1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;   
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.johnHead11 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 10px;
+    letter-spacing: -0.02em;
+}
+
+.johnParag11 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 0 10px;
+    margin-top: 10px;
+    letter-spacing: -0.02em;
+}

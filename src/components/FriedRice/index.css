@@ -2,8 +2,123 @@
     width: auto;
     height: auto;
     padding: 0 5.555%;
+    margin-top: 50px;
 }
+
 .riceWrap {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.john1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.johnHead1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 10px;
+    letter-spacing: -0.02em;
+}
+
+.johnParag1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 0 10px;
+    margin-top: 10px;
+    letter-spacing: -0.02em;
+}
+
+.sideHead1 {
+    width: 600px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+
+.riceSpan {
+    display: flex;
+    gap: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    line-height: 1em;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    margin-left: 210px;
+    letter-spacing: -0.02em;
+}
+
+.itemList {
+    width: 360px;
+    height: 495px;
+    border-radius: 30px;
+    border: 1px;
+    background-color: #E7FAFE;
+    padding: 20px 20px;
+}
+
+.dList {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.leftList {
+    list-style: none;
+    margin-left: -40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: -0.04em;
+}
+
+.rightList {
+    list-style: none;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: -0.04em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.listHead {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.4em;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.listFooter {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 130px;
+}
+.footerP {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;   
+    margin-bottom: 70px;
 }
