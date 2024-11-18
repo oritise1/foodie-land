@@ -31,3 +31,9 @@
     row-gap: 0;
     column-gap: 2.67%;
 }
+@media screen and (max-width: 1150px) {
+    .cate {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}

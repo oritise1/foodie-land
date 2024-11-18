@@ -28,3 +28,9 @@
     row-gap: 20px;
     column-gap: 3.125%;
 }
+@media screen and (max-width: 1150px) {
+    .recipes {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}

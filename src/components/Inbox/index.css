@@ -57,10 +57,20 @@
     font-weight: 600;
     line-height: 16.94px;
     letter-spacing: -0.02em;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 .inboxImg {
     display: flex;
     justify-content: space-between;
     margin: -188px 1px;
+}
+@media screen and (max-width: 1150px) {
+    .inboxWrapper {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+    .btnArea {
+        left: 740px;
+        margin-top: 13px;
+    }
 }

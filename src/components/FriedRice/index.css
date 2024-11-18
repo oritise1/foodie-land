@@ -122,3 +122,9 @@ li {
     line-height: 1.5em;   
     margin-bottom: 70px;
 }
+@media screen and (max-width: 1150px) {
+    .riceWrapper {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}

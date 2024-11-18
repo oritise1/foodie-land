@@ -1,11 +1,15 @@
+.nav {
+    width: auto;
+}
 .navBar {
-    width: 88.8%;
+    width: 90%;
     height: 30px;
-    padding: 40px 5.6%;
+    padding: 40px 5%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
+
 .navTittle {
     width: 7%;
     height: 30px;
@@ -15,11 +19,13 @@
     line-height: 1.875em;
     font-weight: 400;
 }
-.navList{
+
+.navList {
     display: flex;
     gap: 60px;
     margin-top: 10px;
 }
+
 nav a {
     text-decoration: none;
     color: black;
@@ -28,7 +34,31 @@ nav a {
     line-height: 1.02em;
     font-weight: 500;
 }
+
 .navImg {
     display: flex;
     gap: 40px;
+}
+.line {
+    opacity: 0.2;
+}
+@media screen and (max-width: 1150px) {
+    .nav {
+        width: auto;
+    }
+    .navBar {
+        width: 1220px;
+        padding: 0 8%;
+    }
+    .navList {
+        font-size: 1.2em;
+    }
+    .social {
+        width: 25px;
+    }
+    .line {
+        width: 1230px;
+        margin-top: 20px;
+        opacity: 0.5;
+    }
 }

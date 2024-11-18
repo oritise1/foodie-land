@@ -79,3 +79,9 @@
     margin-top: 10px;
     letter-spacing: -0.02em;
 }
+@media screen and (max-width: 1150px) {
+    .ingredentWrapper {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}

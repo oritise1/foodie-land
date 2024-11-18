@@ -48,3 +48,9 @@
     color: #fff;
     margin: 80px 40%;
 }
+@media screen and (max-width: 1150px) {
+    .checkWrapper {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}

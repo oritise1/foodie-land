@@ -39,3 +39,9 @@
     font-weight: 600;
     margin-top: 40px;
 }
+@media screen and (max-width: 1150px) {
+    .cate1 {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}

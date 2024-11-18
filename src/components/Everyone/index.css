@@ -37,3 +37,9 @@
     letter-spacing: -0.02em;
     margin-top: 40px;
 }
+@media screen and (max-width: 1150px) {
+    .everyWrapper {
+        width: 1220px;
+        padding: 0 8%; 
+    }
+}
